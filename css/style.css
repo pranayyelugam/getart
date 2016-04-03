@@ -1,0 +1,198 @@
+
+/* Header Styles
+---------------------------------*/
+
+#header_outer{
+	background:#ffffff;
+	padding:20px 0px;
+	}
+
+.header_section{
+	position:relative;
+	}
+	
+.logo{
+	float:left;
+	}
+	
+.res-nav_click{ display:none;}
+	
+
+/* Nav Styles
+---------------------------------*/
+	
+.nav{
+	float:right;
+	}
+	
+.nav ul{
+	list-style:none;
+	padding:0px;
+	}
+.nav ul.toggle{
+	display:none;
+	visibility:hidden;
+	height:0px;
+	overflow:hidden;
+	margin-bottom: 0;
+	}
+	
+.nav ul li{
+	display:inline-block;
+	margin:0 23px;
+	}
+	
+.nav ul li:first-child{
+	/*margin:0px;*/
+	}
+	
+.nav ul li:last-child{
+	margin:0 0 0 23px;
+	}
+	
+.nav ul li a{
+	display:block;
+	font-size:14px;
+	color:#222222;
+	font-family:'Dosis';
+	text-decoration:none;
+	text-transform:uppercase;
+	font-weight: 600;
+	transition:all 0.2s ease-in-out;
+	-moz-transition:all 0.2s ease-in-out;
+	-webkit-transition:all 0.2s ease-in-out;	
+	}
+.nav ul li a:hover{
+	color:#FE980F;
+	}
+
+
+
+
+/*video*/
+video { 
+	background color: #9999ff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.5);
+}
+.stopfade { 
+   opacity: .5;
+}
+@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url(//demosthenes.info/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
+
+/*end*/
+h1{
+	font-size:38px;
+	color:#ffffff;
+	font-family:'Dosis';
+	font-weight:700;
+	margin-top: 200px;
+	
+	text-align:center;
+	text-transform:uppercase;
+}
+h4{
+	color: #FE980F;
+}
+P{
+	color: #ffffff;
+	margin-top: 7px;
+}
+a.learn_more2{
+	margin-top: 20px;
+	font-family: 'Dosis';
+	display:block;
+	font-size:16px;
+	color:#ffffff;
+	background:#FE980F;
+	width:178px;
+	height:46px;
+	line-height:46px;
+	border-radius:3px;
+	text-align:center;
+	font-family:''Dosis'';
+	text-transform:uppercase;
+	font-weight: 600;
+	transition:all 0.2s ease-in-out;
+	-moz-transition:all 0.2s ease-in-out;
+	-webkit-transition:all 0.2s ease-in-out;
+        alignment-adjust: right;
+	}
+a.learn_more2:hover{
+	background:#222222;
+	}
+
+
+
+
+/*twitter*/
+
+ .twitter-feed{
+	background:#00b8ff;
+	padding:40px 0;
+	text-align:center;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.twitter-feed:hover {
+	background: #FE980F;
+}
+
+.twitter-feed p{
+	font-size:16px;
+	font-weight: 300;
+	color:#ffffff;
+	margin:0 0 15px 0;
+	}
+	
+.twitter_bird{
+	/*background:url(../img/twitter_bird.png) no-repeat left top;*/
+	width:36px;
+	margin:0px auto 15px;
+	}
+	
+.twitter-feed p small{
+	font-size:16px;
+	font-weight: 300;
+	color:#ffffff;
+	display:inline-block;
+	}
+	
+.twitter-feed span{
+	display:block;
+	font-size:14px;
+	font-style: italic;
+	color:#ffffff;
+	}
+
+.twitter-feed span i{
+	font-size: 38px;
+}
+/*end*/
